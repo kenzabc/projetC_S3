@@ -4,7 +4,7 @@
 
 #ifndef PROJETC_S3_SET_H
 #define PROJETC_S3_SET_H
-#include "set.c"
+
 
 typedef struct s_d_cell
 {
