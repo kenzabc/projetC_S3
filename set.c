@@ -36,3 +36,17 @@ t_l_list *create_l_list(int max_level)
     return list;
 }
 
+void insert_l_cell_at_head(t_l_list *list, t_l_cell * cell, int level)
+{
+    if (list->head == NULL)
+    {
+        list->head = cell;
+        return;
+    }
+
+    return;
+}
+
+void cell_in_level(t_l_list *list, int level);
+void display_l_list(t_l_list *list);
+void insert_l_cell(t_l_list *list, t_l_cell * cell, int level);
