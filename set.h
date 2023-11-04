@@ -1,10 +1,11 @@
 //
 // Created by kenza on 24/10/2023.
-//
-
+//ON UTILISE PLUS CA
+/*
 #ifndef PROJETC_S3_SET_H
 #define PROJETC_S3_SET_H
 
+#include "stdio.h"
 
 typedef struct s_d_cell
 {
@@ -39,3 +40,4 @@ void display_l_list(t_l_list *list);
 void insert_l_cell(t_l_list *list, t_l_cell * cell, int level);
 
 #endif //PROJETC_S3_SET_H
+*/

@@ -1,6 +1,7 @@
 //
 // Created by kenza on 24/10/2023.
-//
+//ON UTILISE PLUS CA
+/*
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
@@ -50,3 +51,5 @@ void insert_l_cell_at_head(t_l_list *list, t_l_cell * cell, int level)
 void cell_in_level(t_l_list *list, int level);
 void display_l_list(t_l_list *list);
 void insert_l_cell(t_l_list *list, t_l_cell * cell, int level);
+
+ */
