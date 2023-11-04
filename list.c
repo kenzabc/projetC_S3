@@ -50,7 +50,7 @@ void ShowAllLevels(t_list* list){
 void InsertCellInList(t_list* list, t_cell *newcell, int max_value){
     if (max_value > list->max_level) // si le niveau max de la cellule > max level de level list, alors impossible
     {
-        printf("Insertion impossible, le niveau de la liste demandee est plus grande que le niveau de la liste\n");
+        printf("Insertion impossible, le niveau de la liste demandee est plus grande que le niveau de la liste créée\n");
         return;
     }
     else
